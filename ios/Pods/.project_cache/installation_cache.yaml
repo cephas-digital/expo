@@ -8233,9 +8233,9 @@ CACHE_KEYS:
   ABI39_0_0ExpoKit:
     BUILD_SETTINGS_CHECKSUM:
       ABI39_0_0ExpoKit:
-        :debug: 6454fdd7498faf9c9c79f336e8c278ee
-        :release: 6454fdd7498faf9c9c79f336e8c278ee
-    CHECKSUM: e758ecdda076150e0828f62f299d8aae79eed73e
+        :debug: 1a6cde63a9d642b1edf3b5a0a1c07ea9
+        :release: 1a6cde63a9d642b1edf3b5a0a1c07ea9
+    CHECKSUM: c1b4c4a2ed5e5e31c583e138e394a5ada72dad00
     FILES:
       - "../versioned-react-native/ABI39_0_0/Expo/ExpoKit/Core/ABI39_0_0EXUnversioned.h"
       - "../versioned-react-native/ABI39_0_0/Expo/ExpoKit/Core/ABI39_0_0EXVersionManager.h"
@@ -8602,20 +8602,29 @@ CACHE_KEYS:
       - "../versioned-react-native/ABI39_0_0/Expo/ExpoKit/Core/Api/NetInfo/ABI39_0_0RNCNetInfo.h"
       - "../versioned-react-native/ABI39_0_0/Expo/ExpoKit/Core/Api/NetInfo/ABI39_0_0RNCNetInfo.m"
       - "../versioned-react-native/ABI39_0_0/Expo/ExpoKit/Core/Api/Reanimated/ABI39_0_0ErrorHandler.h"
+      - "../versioned-react-native/ABI39_0_0/Expo/ExpoKit/Core/Api/Reanimated/ABI39_0_0EventHandler.cpp"
       - "../versioned-react-native/ABI39_0_0/Expo/ExpoKit/Core/Api/Reanimated/ABI39_0_0EventHandler.h"
+      - "../versioned-react-native/ABI39_0_0/Expo/ExpoKit/Core/Api/Reanimated/ABI39_0_0EventHandlerRegistry.cpp"
       - "../versioned-react-native/ABI39_0_0/Expo/ExpoKit/Core/Api/Reanimated/ABI39_0_0EventHandlerRegistry.h"
+      - "../versioned-react-native/ABI39_0_0/Expo/ExpoKit/Core/Api/Reanimated/ABI39_0_0FrozenObject.cpp"
       - "../versioned-react-native/ABI39_0_0/Expo/ExpoKit/Core/Api/Reanimated/ABI39_0_0FrozenObject.h"
       - "../versioned-react-native/ABI39_0_0/Expo/ExpoKit/Core/Api/Reanimated/ABI39_0_0Logger.h"
       - "../versioned-react-native/ABI39_0_0/Expo/ExpoKit/Core/Api/Reanimated/ABI39_0_0LoggerInterface.h"
+      - "../versioned-react-native/ABI39_0_0/Expo/ExpoKit/Core/Api/Reanimated/ABI39_0_0Mapper.cpp"
       - "../versioned-react-native/ABI39_0_0/Expo/ExpoKit/Core/Api/Reanimated/ABI39_0_0Mapper.h"
+      - "../versioned-react-native/ABI39_0_0/Expo/ExpoKit/Core/Api/Reanimated/ABI39_0_0MapperRegistry.cpp"
       - "../versioned-react-native/ABI39_0_0/Expo/ExpoKit/Core/Api/Reanimated/ABI39_0_0MapperRegistry.h"
+      - "../versioned-react-native/ABI39_0_0/Expo/ExpoKit/Core/Api/Reanimated/ABI39_0_0MutableValue.cpp"
       - "../versioned-react-native/ABI39_0_0/Expo/ExpoKit/Core/Api/Reanimated/ABI39_0_0MutableValue.h"
+      - "../versioned-react-native/ABI39_0_0/Expo/ExpoKit/Core/Api/Reanimated/ABI39_0_0MutableValueSetterProxy.cpp"
       - "../versioned-react-native/ABI39_0_0/Expo/ExpoKit/Core/Api/Reanimated/ABI39_0_0MutableValueSetterProxy.h"
       - "../versioned-react-native/ABI39_0_0/Expo/ExpoKit/Core/Api/Reanimated/ABI39_0_0NativeMethods.h"
       - "../versioned-react-native/ABI39_0_0/Expo/ExpoKit/Core/Api/Reanimated/ABI39_0_0NativeMethods.mm"
       - "../versioned-react-native/ABI39_0_0/Expo/ExpoKit/Core/Api/Reanimated/ABI39_0_0NativeProxy.h"
       - "../versioned-react-native/ABI39_0_0/Expo/ExpoKit/Core/Api/Reanimated/ABI39_0_0NativeProxy.mm"
+      - "../versioned-react-native/ABI39_0_0/Expo/ExpoKit/Core/Api/Reanimated/ABI39_0_0NativeReanimatedModule.cpp"
       - "../versioned-react-native/ABI39_0_0/Expo/ExpoKit/Core/Api/Reanimated/ABI39_0_0NativeReanimatedModule.h"
+      - "../versioned-react-native/ABI39_0_0/Expo/ExpoKit/Core/Api/Reanimated/ABI39_0_0NativeReanimatedModuleSpec.cpp"
       - "../versioned-react-native/ABI39_0_0/Expo/ExpoKit/Core/Api/Reanimated/ABI39_0_0NativeReanimatedModuleSpec.h"
       - "../versioned-react-native/ABI39_0_0/Expo/ExpoKit/Core/Api/Reanimated/ABI39_0_0PlatformDepMethodsHolder.h"
       - "../versioned-react-native/ABI39_0_0/Expo/ExpoKit/Core/Api/Reanimated/ABI39_0_0REAIOSErrorHandler.h"
@@ -8631,12 +8640,17 @@ CACHE_KEYS:
       - "../versioned-react-native/ABI39_0_0/Expo/ExpoKit/Core/Api/Reanimated/ABI39_0_0REATurboModuleProvider.h"
       - "../versioned-react-native/ABI39_0_0/Expo/ExpoKit/Core/Api/Reanimated/ABI39_0_0REATurboModuleProvider.mm"
       - "../versioned-react-native/ABI39_0_0/Expo/ExpoKit/Core/Api/Reanimated/ABI39_0_0REAUtils.h"
+      - "../versioned-react-native/ABI39_0_0/Expo/ExpoKit/Core/Api/Reanimated/ABI39_0_0RemoteObject.cpp"
       - "../versioned-react-native/ABI39_0_0/Expo/ExpoKit/Core/Api/Reanimated/ABI39_0_0RemoteObject.h"
+      - "../versioned-react-native/ABI39_0_0/Expo/ExpoKit/Core/Api/Reanimated/ABI39_0_0RuntimeDecorator.cpp"
       - "../versioned-react-native/ABI39_0_0/Expo/ExpoKit/Core/Api/Reanimated/ABI39_0_0RuntimeDecorator.h"
+      - "../versioned-react-native/ABI39_0_0/Expo/ExpoKit/Core/Api/Reanimated/ABI39_0_0Scheduler.cpp"
       - "../versioned-react-native/ABI39_0_0/Expo/ExpoKit/Core/Api/Reanimated/ABI39_0_0Scheduler.h"
+      - "../versioned-react-native/ABI39_0_0/Expo/ExpoKit/Core/Api/Reanimated/ABI39_0_0ShareableValue.cpp"
       - "../versioned-react-native/ABI39_0_0/Expo/ExpoKit/Core/Api/Reanimated/ABI39_0_0ShareableValue.h"
       - "../versioned-react-native/ABI39_0_0/Expo/ExpoKit/Core/Api/Reanimated/ABI39_0_0SharedParent.h"
       - "../versioned-react-native/ABI39_0_0/Expo/ExpoKit/Core/Api/Reanimated/ABI39_0_0SpeedChecker.h"
+      - "../versioned-react-native/ABI39_0_0/Expo/ExpoKit/Core/Api/Reanimated/ABI39_0_0WorkletsCache.cpp"
       - "../versioned-react-native/ABI39_0_0/Expo/ExpoKit/Core/Api/Reanimated/ABI39_0_0WorkletsCache.h"
       - "../versioned-react-native/ABI39_0_0/Expo/ExpoKit/Core/Api/Reanimated/Nodes/ABI39_0_0REAAlwaysNode.h"
       - "../versioned-react-native/ABI39_0_0/Expo/ExpoKit/Core/Api/Reanimated/Nodes/ABI39_0_0REAAlwaysNode.m"
@@ -8799,8 +8813,8 @@ CACHE_KEYS:
       - "../versioned-react-native/ABI39_0_0/Expo/ExpoKit/Core/UniversalModules/Permissions/ABI39_0_0EXScopedPermissions.m"
     PROJECT_NAME: ABI39_0_0
     SPECS:
-      - ABI39_0_0ExpoKit/Expo (38.0.0)
-      - ABI39_0_0ExpoKit/ExpoOptional (38.0.0)
+      - ABI39_0_0ExpoKit/Expo (39.0.0)
+      - ABI39_0_0ExpoKit/ExpoOptional (39.0.0)
   ABI39_0_0EXPrint:
     BUILD_SETTINGS_CHECKSUM:
       ABI39_0_0EXPrint:
@@ -11600,8 +11614,8 @@ CACHE_KEYS:
       - nanopb/encode (0.3.9011)
   Pods-Exponent:
     BUILD_SETTINGS_CHECKSUM:
-      Debug: 01516e159224aa2af6afe6fc33d5f370
-      Release: 01516e159224aa2af6afe6fc33d5f370
+      Debug: 8aa58afd24c8c2007e5d4729012bea53
+      Release: 8aa58afd24c8c2007e5d4729012bea53
     FILES:
       - "${PODS_CONFIGURATION_BUILD_DIR}/ABI39_0_0React-Core/AccessibilityResources.bundle"
       - "${PODS_CONFIGURATION_BUILD_DIR}/FirebaseMLVisionFaceModel/GoogleMVFaceDetectorResources.bundle"
@@ -11612,12 +11626,12 @@ CACHE_KEYS:
       - "${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle"
   Pods-ExponentIntegrationTests:
     BUILD_SETTINGS_CHECKSUM:
-      Debug: 794d383b96e1c43c6b5eee0fb35c3172
-      Release: 794d383b96e1c43c6b5eee0fb35c3172
+      Debug: 0cf1030d24f700bc0a18df4e5faf3f97
+      Release: 0cf1030d24f700bc0a18df4e5faf3f97
   Pods-Tests:
     BUILD_SETTINGS_CHECKSUM:
-      Debug: 794d383b96e1c43c6b5eee0fb35c3172
-      Release: 794d383b96e1c43c6b5eee0fb35c3172
+      Debug: 0cf1030d24f700bc0a18df4e5faf3f97
+      Release: 0cf1030d24f700bc0a18df4e5faf3f97
   Protobuf:
     BUILD_SETTINGS_CHECKSUM:
       Protobuf:

@@ -1,9 +1,14 @@
 
 # generated from template-files/ios/ExpoKit.podspec
 
+folly_flags = '-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1'
+folly_compiler_flags = folly_flags + ' ' + '-Wno-comma -Wno-shorten-64-to-32'
+folly_version = '2020.01.13.00'
+boost_compiler_flags = '-Wno-documentation'
+
 Pod::Spec.new do |s|
   s.name = "ABI39_0_0ExpoKit"
-  s.version = "38.0.0"
+  s.version = "39.0.0"
   s.summary = 'ExpoKit'
   s.description = 'ExpoKit allows native projects to integrate with the Expo SDK.'
   s.homepage = 'http://docs.expo.io'
@@ -14,8 +19,19 @@ Pod::Spec.new do |s|
   s.default_subspec = "Core"
   s.source = { :git => "http://github.com/expo/expo.git" }
 
+  s.pod_target_xcconfig    = {
+    "USE_HEADERMAP" => "YES",
+    "HEADER_SEARCH_PATHS" => "\"$(PODS_TARGET_SRCROOT)/ReactCommon\" \"$(PODS_TARGET_SRCROOT)\" \"$(PODS_ROOT)/Folly\" \"$(PODS_ROOT)/boost-for-react-native\" \"$(PODS_ROOT)/DoubleConversion\" \"$(PODS_ROOT)/Headers/Private/React-Core\" "
+  }
+  s.compiler_flags = folly_compiler_flags + ' ' + boost_compiler_flags
+  s.xcconfig               = {
+    "CLANG_CXX_LANGUAGE_STANDARD" => "gnu++14",
+    "HEADER_SEARCH_PATHS" => "\"$(PODS_ROOT)/boost-for-react-native\" \"$(PODS_ROOT)/glog\" \"$(PODS_ROOT)/Folly\" \"$(PODS_ROOT)/Headers/Private/ABI39_0_0React-Core\"",
+                               "OTHER_CFLAGS" => "$(inherited)" + " " + folly_flags
+  }
+
   s.subspec "Expo" do |ss|
-    ss.source_files     = "Core/**/*.{h,m,mm}"
+    ss.source_files     = "Core/**/*.{h,m,mm,cpp}"
 
     ss.dependency         "ABI39_0_0React-Core"
     ss.dependency         "ABI39_0_0React-Core/DevSupport"
@@ -107,6 +123,7 @@ Pod::Spec.new do |s|
     ss.dependency         "JKBigInteger2"
     ss.dependency         "Branch"
     ss.dependency         "Google-Mobile-Ads-SDK"
+    ss.dependency         "Folly"
   end
 
   s.subspec "ExpoOptional" do |ss|
